@@ -1,0 +1,67 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const birtydaysResponse = {
+    _meta: {
+        status: "succes",
+        status_code: 200,
+        message: null,
+    },
+    users: [
+        {
+            id: 12,
+            name: "Dorothy",
+            surname: "Carter",
+            email: "dorothycarter@teknasyon.com",
+            avatar: "https://i.pravatar.cc/150?img=1",
+            phone: "05412221122",
+            birthday: "1979-09-09",
+            started_at: "01-01-2013",
+            finish_working_try_date: "2013-01-01 00:00:00",
+        },
+        {
+            id: 22,
+            name: "Victor",
+            surname: "Schulz",
+            email: "victorschulz@teknasyon.com",
+            avatar: "https://i.pravatar.cc/150?img=2",
+            phone: "05411112233",
+            birthday: "1980-09-12",
+            started_at: "11-10-2017",
+            finish_working_try_date: "2017-10-11 00:00:00",
+        },
+        {
+            id: 32,
+            name: "Beverly",
+            surname: "Lincoln",
+            email: "beverlylincoln@teknasyon.com",
+            avatar: "https://i.pravatar.cc/150?img=3",
+            phone: "05552223311",
+            birthday: "1981-09-01",
+            started_at: "08-10-2018",
+            finish_working_try_date: "2018-10-08 00:00:00",
+        },
+        {
+            id: 42,
+            name: "Sean",
+            surname: "Trujillo",
+            email: "seantrujillo@teknasyon.com",
+            avatar: "https://i.pravatar.cc/150?img=4",
+            phone: "05353332211",
+            birthday: "1983-09-17",
+            started_at: "17-07-2017",
+            finish_working_try_date: "17-09-2017",
+        },
+        {
+            id: 52,
+            name: "Gary",
+            surname: "Toney",
+            email: "garytoney@teknasyon.com",
+            avatar: "https://i.pravatar.cc/150?img=5",
+            phone: "05331112233",
+            birthday: "1985-09-12",
+            started_at: "04-05-2022",
+            finish_working_try_date: "04-10-2023",
+        },
+    ],
+};
+exports.default = birtydaysResponse;
